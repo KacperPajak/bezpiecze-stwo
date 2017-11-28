@@ -1,9 +1,0 @@
-function phpFunction() {
-#$conn = mysqli_connect("localhost", "root", "7508041zq7h43co" , "data");
-#if($username = $conn->query("SELECT * FROM users"));
-#	$row = mysqli_fetch_array($username);
-	 #if($login = $row['username'])
-	 #return $row['password'];
-	 #else return null;
-#} 
-
