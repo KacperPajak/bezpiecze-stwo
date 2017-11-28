@@ -1,0 +1,213 @@
+body{
+	background: #292931;
+}
+#login{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#login h2{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+#login h4{
+        text-align: center;
+	color: red;
+	font-family: sans-serif;
+}
+#login input{
+	display: block;
+	width: 320px;
+	height: 40px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+}
+#login #login-btn{
+	background: #55acee;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+}
+#trans{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#trans h2{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+#trans h4{
+        text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+#trans label{
+	display: block;
+	width: 320px;
+	height: 20px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+}
+#trans input{
+	display: block;
+	width: 340px;
+	height: 40px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+}
+#trans #trans-btn{
+	background: #55acee;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+#hist{
+	position: absolute;
+	top:150%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#hist h2{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+#hist h4{
+        text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+#hist label{
+	display: block;
+	width: 600px;
+	height: 170px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+}
+#hist input{
+	display: block;
+	width: 340px;
+	height: 40px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+}
+#hist #trans-btn{
+	background: #55acee;
+	margin:auto;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+#admin{
+	position: absolute;
+	top:150%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#admin h2{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+#admin h4{
+        text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+#admin label{
+	display: block;
+	width: 600px;
+	height: 180px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+}
+#admin #trans-btn{
+display: block;
+	width: 340px;
+	height: 40px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+	background: #55acee;
+	margin:auto;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+}
+#dowhatiwill h4{
+        text-align: center;
+	color: red;
+	font-family: sans-serif;
+}
+
+
